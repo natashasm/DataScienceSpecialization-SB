@@ -1,3 +1,6 @@
+##Titantic GGplot part 1 Exercise
+##Down below is the code used to plot Titantic Code using ggplot- Data Visualization
+
 
 # titanic is avaliable in your workspace
 
