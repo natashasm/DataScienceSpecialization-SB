@@ -62,6 +62,13 @@ barplot(table(nc$Best.n[1,]),
 set.seed(1234)
 km.out=kmeans(dfsc, 3, nstart = 25)
 km.out
+
+
+dist(km.out$centers)
+
+km.out$centers
+km.out$tot.withinss
+km.out$betweenss
 # Now we want to evaluate how well this clustering does.
 
 # Exercise 5: using the table() function, show how the clusters in fit.km$clusters
