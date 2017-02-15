@@ -63,7 +63,10 @@ set.seed(1234)
 km.out=kmeans(dfsc, 3, nstart = 25)
 km.out
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 dist(km.out$centers)
 
 km.out$centers
